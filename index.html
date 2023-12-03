@@ -506,5 +506,92 @@
         </div>
       </div>
     </footer>
+
+    <!--BACKDROP-->
+
+    <div class="backdrop">
+      <div class="modal">
+        <button class="modal-close-btn">
+          <svg
+            class="modal-close-btn-icon"
+            width="8"
+            height="8"
+            aria-label="modal icon"
+          >
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="contact-form-description">
+          Leave your contacts and we will call you back
+        </p>
+        <form class="contact-form">
+          <div class="contact-form-field-wrapper">
+            <label class="contact-form-field-label" for="user-name">Name</label>
+            <input
+              class="contact-form-input"
+              id="user-name"
+              name="user-name"
+              type="text"
+              pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐ']+"
+              required
+            />
+          </div>
+          <div class="contact-form-field-wrapper">
+            <label class="contact-form-field-label" for="user-phone"
+              >Phone</label
+            >
+            <input
+              class="contact-form-input"
+              id="user-phone"
+              name="user-phone"
+              type="tel"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+              title="xxx-xxx-xx-xx"
+              required
+            />
+          </div>
+          <div class="contact-form-field-wrapper">
+            <label class="contact-form-field-label" for="user-email"
+              >Email</label
+            >
+            <input
+              class="contact-form-input"
+              id="user-email"
+              name="user-email"
+              type="email"
+              required
+            />
+          </div>
+          <div class="contact-form-field-wrapper">
+            <label class="contact-form-field-label" for="user-comment"
+              >Comment</label
+            >
+            <textarea
+              class="contact-form-comment"
+              id="user-comment"
+              name="user-comment"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div class="contact-form-checkbox-wrapper">
+            <input
+              class="contact-form-checkbox"
+              id="user-privacy-policy"
+              name="user-privacy-policy"
+              type="checkbox"
+              value="true"
+              required
+            />
+            <label class="contact-form-checkbox-label" for="user-privacy-policy"
+              >I accept the terms and conditions of the
+              <a class="contact-form-color-privacy" href=""
+                >Privacy Policy</a
+              ></label
+            >
+          </div>
+          <button class="contact-form-submit-btn" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
