@@ -572,6 +572,7 @@ body {
   resize: none;
   background-color: transparent;
   padding-left: 16px;
+  padding-top: 8px;
 }
 
 .contact-form-checkbox-label {
