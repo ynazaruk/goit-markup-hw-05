@@ -683,7 +683,7 @@ body {
 .contact-form-submit-btn {
   cursor: pointer;
   display: block;
-  min-width: 170px;
+  min-width: 169px;
   padding: 16px 32px;
   justify-content: center;
   margin-left: auto;
